@@ -50,7 +50,7 @@ TravelChatbot/
 │   └── index.html            # Giao diện chính
 ├── app.py                    # Flask app (Chatbot)
 ├── .env                      # API key (GEMINI_API_KEY)
-├── api key.txt               # Lưu API key (không khuyến nghị)
+└──  api key.txt               # Lưu API key (không khuyến nghị)
 
 ---
 
