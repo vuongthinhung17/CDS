@@ -44,7 +44,7 @@ Chatbot cung cấp lịch trình chi tiết, khách sạn, di chuyển, ăn uố
 ---
 
 ## 📁 Cấu trúc dự án
-\`\`\`bash
+\`\`\`
 
 TravelChatbot/
 ├── templates/
@@ -60,7 +60,7 @@ TravelChatbot/
 
 ## 🚀 Hướng dẫn cài đặt
 1. 🔽 Clone repository:
-   \`\`\`bash
+   \`\`\`
    
    git clone https://github.com/your-repo/TravelChatbot.git
    cd TravelChatbot
@@ -68,7 +68,7 @@ TravelChatbot/
    \`\`\`
 
 3. 🛠 Tạo môi trường ảo:
-   \`\`\`bash
+   \`\`\`
    
    python -m venv venv
    venv\Scripts\activate   # Windows
@@ -77,7 +77,7 @@ TravelChatbot/
    \`\`\`
 
 5. 📦 Cài đặt thư viện:
-   \`\`\`bash
+   \`\`\`
    
    pip install -r requirements.txt
    
@@ -91,7 +91,7 @@ TravelChatbot/
    \`\`\`
 
 9. 🚀 Chạy ứng dụng:
-   \`\`\`bash
+   \`\`\`
    
    python app.py
    
