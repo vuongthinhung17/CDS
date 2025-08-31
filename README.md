@@ -1,7 +1,7 @@
 # Chatbot AI Gợi ý Combo Du lịch 🌍
 
 <p align="center">
-  <img src="logo.png" width="200" style="margin: 10px;">
+  <img src="logo.png" width="250" style="margin: 12px;">
   <img src="AIoTLab_logo.png" width="200" style="margin: 10px;">
 </p>
 
