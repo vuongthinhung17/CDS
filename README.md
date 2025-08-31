@@ -52,9 +52,9 @@ TravelChatbot/
 ├── .env                      # API key (GEMINI_API_KEY)
 ├── api key.txt               # Lưu API key (không khuyến nghị)
 
-    </ul>
+---
 
-    <h2 id="install">🚀 Hướng dẫn cài đặt</h2>
+## 🚀 Hướng dẫn cài đặt
     <ol>
         <li>Clone repository:
             <pre><code>git clone https://github.com/your-repo/TravelChatbot.git
