@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="logo.png" width="200" style="margin: 10px;">
-  <img src="AIoTLabAIoTLab_logo.png" width="200" style="margin: 10px;">
+  <img src="AIoTLab_logo.png" width="200" style="margin: 10px;">
 </p>
 
 Dự án **Travel Chatbot** được xây dựng bằng **Python (Flask)**, tích hợp **Google Gemini API** để gợi ý các combo du lịch theo ngân sách, sở thích và thời gian.  
@@ -51,20 +51,8 @@ TravelChatbot/
 ├── app.py                    # Flask app (Chatbot)
 ├── .env                      # API key (GEMINI_API_KEY)
 ├── api key.txt               # Lưu API key (không khuyến nghị)
-└── requirements.txt          # Thư viện cần cài
 
     </ul>
-
-    <h2 id="structure">📁 Cấu trúc dự án</h2>
-<pre>
-TravelChatbot/
-├── templates/
-│   └── index.html            # Giao diện chính
-├── app.py                    # Flask app (Chatbot)
-├── .env                      # API key (GEMINI_API_KEY)
-├── api key.txt               # Lưu API key (không khuyến nghị)
-└── requirements.txt          # Thư viện cần cài
-</pre>
 
     <h2 id="install">🚀 Hướng dẫn cài đặt</h2>
     <ol>
