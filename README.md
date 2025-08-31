@@ -44,66 +44,70 @@ Chatbot cung cấp lịch trình chi tiết, khách sạn, di chuyển, ăn uố
 ---
 
 ## 📁 Cấu trúc dự án
-```bash
+\`\`\`bash
 TravelChatbot/
 ├── templates/
 │   └── index.html            # Giao diện chính
 ├── app.py                    # Flask app (Chatbot)
 ├── .env                      # API key (GEMINI_API_KEY)
-└──  api key.txt               # Lưu API key (không khuyến nghị)
+├── api key.txt               # Lưu API key (không khuyến nghị)
+└── requirements.txt          # Thư viện cần cài
+\`\`\`
 
 ---
 
 ## 🚀 Hướng dẫn cài đặt
-    <ol>
-        <li>Clone repository:
-            <pre><code>git clone https://github.com/your-repo/TravelChatbot.git
-cd TravelChatbot</code></pre>
-        </li>
-        <li>Tạo môi trường ảo:
-            <pre><code>python -m venv venv
-venv\Scripts\activate   # Windows
-source venv/bin/activate  # Linux/Mac</code></pre>
-        </li>
-        <li>Cài đặt thư viện:
-            <pre><code>pip install -r requirements.txt</code></pre>
-        </li>
-        <li>Cấu hình API key trong <code>.env</code>:
-            <pre><code>GEMINI_API_KEY=your_api_key_here</code></pre>
-        </li>
-        <li>Chạy ứng dụng:
-            <pre><code>python app.py</code></pre>
-        </li>
-        <li>Truy cập tại: <a href="http://127.0.0.1:5000">http://127.0.0.1:5000</a></li>
-    </ol>
+1. 🔽 Clone repository:
+   \`\`\`bash
+   git clone https://github.com/your-repo/TravelChatbot.git
+   cd TravelChatbot
+   \`\`\`
 
-    <h2 id="usage">📖 Hướng dẫn sử dụng</h2>
-    <ol>
-        <li>Nhập yêu cầu combo du lịch (ví dụ: “Đi Đà Nẵng 2 ngày 1 đêm  2 người, ngân sách 5 triệu”).</li>
-        <li>Chatbot sẽ trả về gợi ý theo 7 phần: Tóm tắt → Lịch trình → Khách sạn → Di chuyển → Ăn uống → Chi phí → Mẹo.</li>
-        <li>Người dùng có thể tiếp tục trò chuyện để tinh chỉnh gợi ý.</li>
-    </ol>
+2. 🛠 Tạo môi trường ảo:
+   \`\`\`bash
+   python -m venv venv
+   venv\Scripts\activate   # Windows
+   source venv/bin/activate  # Linux/Mac
+   \`\`\`
 
-    <h2 id="screenshots">🖼️ Hình ảnh ứng dụng</h2>
-    <p><strong>💬 Giao diện Chatbot:</strong></p>
-    <p align="center">
-        <img src="home.png" width="700" alt="Chatbot UI">
-    </p>
-    <p><strong>💬 Giao diện Chatbot người dùng nhập câu hỏi:</strong></p>
-    <p align="center">
-        <img src="hoi.png" width="700" alt="Chatbot UI">
-    </p>
-    <p><strong>💬 Giao diện Chatbot trả lời người dùng:</strong></p>
-    <p align="center">
-        <img src="dap.png" width="700" alt="Chatbot UI">
-    </p>
+3. 📦 Cài đặt thư viện:
+   \`\`\`bash
+   pip install -r requirements.txt
+   \`\`\`
 
-    <h2 id="copyright">
-        © Bản quyền
-    </h2>
-    <div align="center">
-        <p>© 2025 Vương Thị Nhung CNTT - 1704 - Dự án Travel Chatbot.</p>
-        <p><strong>Email liên hệ:</strong> <a href="mailto:vuongthinhung2005@gmail.com"vuongthinhung2005@gmail.com</a></p>
-    </div>
-</body>
-</html>
+4. 🔑 Cấu hình API key trong file `.env`:
+   \`\`\`
+   GEMINI_API_KEY=your_api_key_here
+   \`\`\`
+
+5. 🚀 Chạy ứng dụng:
+   \`\`\`bash
+   python app.py
+   \`\`\`
+
+6. 🌐 Truy cập tại: [http://127.0.0.1:5000](http://127.0.0.1:5000)
+
+---
+
+## 📖 Hướng dẫn sử dụng
+1. Nhập yêu cầu combo du lịch (ví dụ: “Đi Đà Nẵng 2 ngày 1 đêm 2 người, ngân sách 5 triệu”).  
+2. Chatbot sẽ trả về gợi ý theo 7 phần: **Tóm tắt → Lịch trình → Khách sạn → Di chuyển → Ăn uống → Chi phí → Mẹo**.  
+3. Người dùng có thể tiếp tục trò chuyện để tinh chỉnh gợi ý.  
+
+---
+
+## 🖼 Hình ảnh ứng dụng
+**💬 Giao diện Chatbot:**
+![Chatbot UI](home.png)
+
+**💬 Người dùng nhập câu hỏi:**
+![Người dùng hỏi](hoi.png)
+
+**💬 Chatbot trả lời:**
+![Chatbot đáp](dap.png)
+
+---
+
+## © Bản quyền
+© 2025 **Vương Thị Nhung CNTT - 1704** - Dự án Travel Chatbot  
+📧 Email liên hệ: [vuongthinhung2005@gmail.com](mailto:vuongthinhung2005@gmail.com)
