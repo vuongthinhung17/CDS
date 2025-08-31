@@ -7,7 +7,7 @@
     <h1 align="center">Chatbot AI Gợi ý Combo Du lịch</h1>
      <div align="center">
         <img src="logo.png" width="200" style="margin: 10px;">
-        <img src="travel_logo.png" alt="Ảnh giao diện ứng dụng" width="200" style="margin: 10px;">
+        <img src="AIoTlap_.png" alt="Ảnh giao diện ứng dụng" width="200" style="margin: 10px;">
     </div>
     <p>Dự án <strong>Travel Chatbot</strong> được xây dựng bằng <strong>Python (Flask)</strong>, tích hợp <em>Google Gemini API</em> để gợi ý các combo du lịch theo ngân sách, sở thích và thời gian. 
     Chatbot cung cấp lịch trình chi tiết, khách sạn, di chuyển, ăn uống và ước tính chi phí.</p>
