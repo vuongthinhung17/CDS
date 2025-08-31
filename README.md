@@ -84,7 +84,7 @@ source venv/bin/activate  # Linux/Mac</code></pre>
         <li>Người dùng có thể tiếp tục trò chuyện để tinh chỉnh gợi ý.</li>
     </ol>
 
-    <h2 id="screenshots">🖼 Hình ảnh ứng dụng</h2>
+    <h2 id="screenshots">🖼️ Hình ảnh ứng dụng</h2>
     <p><strong>💬 Giao diện Chatbot:</strong></p>
     <p align="center">
         <img src="home.png" width="700" alt="Chatbot UI">
