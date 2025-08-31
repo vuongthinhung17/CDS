@@ -1,46 +1,58 @@
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-    <meta charset="UTF-8">
-</head>
-<body>
-    <h1 align="center">Chatbot AI Gợi ý Combo Du lịch</h1>
-     <div align="center">
-        <img src="logo.png" width="200" style="margin: 10px;">
-        <img src="AIoTLab_logo.png" alt="Logo Lab" width="200" style="margin: 10px;">
-    </div>
-    <p>Dự án <strong>Travel Chatbot</strong> được xây dựng bằng <strong>Python (Flask)</strong>, tích hợp <em>Google Gemini API</em> để gợi ý các combo du lịch theo ngân sách, sở thích và thời gian. 
-    Chatbot cung cấp lịch trình chi tiết, khách sạn, di chuyển, ăn uống và ước tính chi phí.</p>
-    <p align="center">
-        <img src="https://img.shields.io/badge/Python-3.10%2B-blue" alt="Python">
-        <img src="https://img.shields.io/badge/Flask-Backend-success" alt="Flask">
-        <img src="https://img.shields.io/badge/Google-Gemini_API-yellow" alt="Gemini API">
-    </p>
+# Chatbot AI Gợi ý Combo Du lịch 🌍
 
-    <h2>📋 Mục lục</h2>
-    <ul>
-        <li><a href="#features">Tính năng chính</a></li>
-        <li><a href="#tech">Công nghệ sử dụng</a></li>
-        <li><a href="#structure">Cấu trúc dự án</a></li>
-        <li><a href="#install">Hướng dẫn cài đặt</a></li>
-        <li><a href="#usage">Hướng dẫn sử dụng</a></li>
-        <li><a href="#screenshots">Hình ảnh ứng dụng</a></li>
-    </ul>
+<p align="center">
+  <img src="logo.png" width="200" style="margin: 10px;">
+  <img src="AIoTLabAIoTLab_logo.png" width="200" style="margin: 10px;">
+</p>
 
-    <h2 id="features">✨ Tính năng chính</h2>
-    <ul>
-        <li>Chatbot gợi ý combo du lịch theo yêu cầu người dùng.</li>
-        <li>Câu trả lời có cấu trúc: Tóm tắt, Lịch trình, Khách sạn, Di chuyển, Ăn uống, Chi phí, Mẹo tiết kiệm.</li>
-        <li>Hỗ trợ ngôn ngữ Tiếng Việt, định dạng dễ đọc (bullet points).</li>
-    </ul>
+Dự án **Travel Chatbot** được xây dựng bằng **Python (Flask)**, tích hợp **Google Gemini API** để gợi ý các combo du lịch theo ngân sách, sở thích và thời gian.  
+Chatbot cung cấp lịch trình chi tiết, khách sạn, di chuyển, ăn uống và ước tính chi phí.
 
-    <h2 id="tech">🛠 Công nghệ sử dụng</h2>
-    <ul>
-        <li><strong>Ngôn ngữ:</strong> Python 3.10+</li>
-        <li><strong>Backend:</strong> Flask</li>
-        <li><strong>AI API:</strong> Google Gemini (Generative AI)</li>
-        <li><strong>Frontend:</strong> HTML5, CSS3, Bootstrap, Jinja2</li>
-        <li><strong>Quản lý API Key:</strong> dotenv (.env)</li>
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue" alt="Python">
+  <img src="https://img.shields.io/badge/Flask-Backend-success" alt="Flask">
+  <img src="https://img.shields.io/badge/Google-Gemini_API-yellow" alt="Gemini API">
+</p>
+
+---
+
+## 📋 Mục lục
+- [✨ Tính năng chính](#-tính-năng-chính)
+- [🛠 Công nghệ sử dụng](#-công-nghệ-sử-dụng)
+- [📁 Cấu trúc dự án](#-cấu-trúc-dự-án)
+- [🚀 Hướng dẫn cài đặt](#-hướng-dẫn-cài-đặt)
+- [📖 Hướng dẫn sử dụng](#-hướng-dẫn-sử-dụng)
+- [🖼 Hình ảnh ứng dụng](#-hình-ảnh-ứng-dụng)
+- [© Bản quyền](#-bản-quyền)
+
+---
+
+## ✨ Tính năng chính
+- Chatbot gợi ý combo du lịch theo yêu cầu người dùng.
+- Câu trả lời có cấu trúc: **Tóm tắt → Lịch trình → Khách sạn → Di chuyển → Ăn uống → Chi phí → Mẹo tiết kiệm**.
+- Hỗ trợ tiếng Việt, định dạng dễ đọc (bullet points).
+
+---
+
+## 🛠 Công nghệ sử dụng
+- **Ngôn ngữ:** Python 3.10+
+- **Backend:** Flask
+- **AI API:** Google Gemini (Generative AI)
+- **Frontend:** HTML5, CSS3, Bootstrap, Jinja2
+- **Quản lý API Key:** dotenv (`.env`)
+
+---
+
+## 📁 Cấu trúc dự án
+```bash
+TravelChatbot/
+├── templates/
+│   └── index.html            # Giao diện chính
+├── app.py                    # Flask app (Chatbot)
+├── .env                      # API key (GEMINI_API_KEY)
+├── api key.txt               # Lưu API key (không khuyến nghị)
+└── requirements.txt          # Thư viện cần cài
+
     </ul>
 
     <h2 id="structure">📁 Cấu trúc dự án</h2>
