@@ -89,6 +89,14 @@ source venv/bin/activate  # Linux/Mac</code></pre>
     <p align="center">
         <img src="home.png" width="700" alt="Chatbot UI">
     </p>
+    <p><strong>💬 Giao diện Chatbot người dùng nhập câu hỏi:</strong></p>
+    <p align="center">
+        <img src="hoi.png" width="700" alt="Chatbot UI">
+    </p>
+    <p><strong>💬 Giao diện Chatbot trả lời người dùng:</strong></p>
+    <p align="center">
+        <img src="dap.png" width="700" alt="Chatbot UI">
+    </p>
 
     <h2 id="copyright">
         © Bản quyền
