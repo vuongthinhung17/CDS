@@ -45,6 +45,7 @@ Chatbot cung cấp lịch trình chi tiết, khách sạn, di chuyển, ăn uố
 
 ## 📁 Cấu trúc dự án
 \`\`\`bash
+
 TravelChatbot/
 ├── templates/
 │   └── index.html            # Giao diện chính
@@ -52,6 +53,7 @@ TravelChatbot/
 ├── .env                      # API key (GEMINI_API_KEY)
 ├── api key.txt               # Lưu API key (không khuyến nghị)
 └── requirements.txt          # Thư viện cần cài
+
 \`\`\`
 
 ---
@@ -59,33 +61,43 @@ TravelChatbot/
 ## 🚀 Hướng dẫn cài đặt
 1. 🔽 Clone repository:
    \`\`\`bash
+   
    git clone https://github.com/your-repo/TravelChatbot.git
    cd TravelChatbot
+   
    \`\`\`
 
-2. 🛠 Tạo môi trường ảo:
+3. 🛠 Tạo môi trường ảo:
    \`\`\`bash
+   
    python -m venv venv
    venv\Scripts\activate   # Windows
    source venv/bin/activate  # Linux/Mac
+   
    \`\`\`
 
-3. 📦 Cài đặt thư viện:
+5. 📦 Cài đặt thư viện:
    \`\`\`bash
+   
    pip install -r requirements.txt
+   
    \`\`\`
 
-4. 🔑 Cấu hình API key trong file `.env`:
+7. 🔑 Cấu hình API key trong file `.env`:
    \`\`\`
+   
    GEMINI_API_KEY=your_api_key_here
+   
    \`\`\`
 
-5. 🚀 Chạy ứng dụng:
+9. 🚀 Chạy ứng dụng:
    \`\`\`bash
+   
    python app.py
+   
    \`\`\`
 
-6. 🌐 Truy cập tại: [http://127.0.0.1:5000](http://127.0.0.1:5000)
+11. 🌐 Truy cập tại: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
 ---
 
