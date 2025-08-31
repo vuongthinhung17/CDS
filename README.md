@@ -44,7 +44,7 @@ Chatbot cung cấp lịch trình chi tiết, khách sạn, di chuyển, ăn uố
 ---
 
 ## 📁 Cấu trúc dự án
-```bash
+\`\`\`bash
 TravelChatbot/
 ├── templates/
 │   └── index.html            # Giao diện chính
@@ -52,7 +52,7 @@ TravelChatbot/
 ├── .env                      # API key (GEMINI_API_KEY)
 ├── api key.txt               # Lưu API key (không khuyến nghị)
 └── requirements.txt          # Thư viện cần cài
-
+\`\`\`
 
 ---
 
@@ -90,7 +90,7 @@ TravelChatbot/
 ---
 
 ## 📖 Hướng dẫn sử dụng
-1. Nhập yêu cầu combo du lịch (ví dụ: “Đi Hà  2 ngày 1 đêm 2 người, ngân sách 5 triệu”).  
+1. Nhập yêu cầu combo du lịch (ví dụ: “Đi Đà Nẵng 2 ngày 1 đêm 2 người, ngân sách 5 triệu”).  
 2. Chatbot sẽ trả về gợi ý theo 7 phần: **Tóm tắt → Lịch trình → Khách sạn → Di chuyển → Ăn uống → Chi phí → Mẹo**.  
 3. Người dùng có thể tiếp tục trò chuyện để tinh chỉnh gợi ý.  
 
